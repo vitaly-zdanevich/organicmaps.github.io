@@ -104,7 +104,7 @@ licensed under the Apache License 2.0.
 <script>
     // https://developers.google.com/web/fundamentals/app-install-banners/native
     window.addEventListener('beforeinstallprompt', (e) => {
-        alert('beforeinstallprompt');
+        alert('beforeinstallprompt TODO');
         const add = document.getElementById('add')
         add.style.display = 'block';
         add.onclick = _ => {
